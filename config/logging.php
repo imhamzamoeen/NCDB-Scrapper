@@ -75,7 +75,7 @@ return [
 
         'slack' => [
             'driver' => 'slack',
-            'url' => env('LOG_SLACK_WEBHOOK_URL','https://hooks.slack.com/services/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'),
+            'url' => env('LOG_SLACK_WEBHOOK_URL',''),
             'username' => 'NCDB Scrapper',
             'emoji' => ':boom:',
             'level' => env('LOG_LEVEL', 'critical'),
